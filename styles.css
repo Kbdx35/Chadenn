@@ -1,0 +1,47 @@
+/*General*/
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #103053; 
+}
+
+/*Picture of background*/
+header{
+    background: url(https://source.unsplash.com/1600x900/?nature,aerialview);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/*Card*/
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+
+.card h5, h6, p{
+    text-align: center;
+}
+
+.card h5{
+    color: #103053;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.card h6{
+    text-transform: uppercase;
+    
+}
+
+/*Icones*/
+.fab{
+    font-size: 25px;
+    color: #103053;
+}
